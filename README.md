@@ -9,20 +9,6 @@ This project explores optimizing a trading strategy using technical indicators, 
 The core idea of this project is to implement a technical trading strategy and backtest it against a buy-and-hold strategy for a selected stock. The strategy uses **moving averages** and **RSI** to generate buy/sell signals, aiming to optimize returns.
 
 ---
-
-## Data
-
-The dataset used in this project contains stock prices and associated market information for **[Stock name, e.g., AAPL]** over a specified time period. The key columns are:
-
-- **Date**: Trading date.
-- **Open, High, Low, Close**: Stock prices.
-- **Adj Close**: Adjusted closing price.
-- **Volume**: Number of shares traded.
-
-The data is loaded from a CSV file into a Pandas DataFrame and processed accordingly.
-
----
-
 ## Strategy Overview
 
 ### Buy-and-Hold Strategy
