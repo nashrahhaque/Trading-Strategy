@@ -63,3 +63,7 @@ All the code is contained in a single Jupyter Notebook file, which includes:
 - Install the required libraries:
   ```bash
   pip install pandas numpy matplotlib talib
+
+  - Run the code
+  ```bash
+  python finance.py
